@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:before, *:after{
+    box-sizing: inherit;
+}
+
+.site{
+    width: 1000px;
+    padding: 1em;
+}
+
+h1,h3,p{
+    padding-bottom: 1em;
+}
+
+h1{
+    font-size: var(--font-size-header1);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: var(--font-size-header3);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+p{
+    font-size: var(--font-size-paragraph);
+    font-size: 1.5em;
+}

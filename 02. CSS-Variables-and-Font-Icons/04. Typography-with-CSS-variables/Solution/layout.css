@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 2em;
+    font-family: var(--font-family-content);
+}
+
+p, ul{
+    padding-bottom: 1em;
+}
+
+h1, h2 {
+    font-family: var(--font-family-headings);
+    padding-bottom: 1em;
+    
+}
+
+ul li{
+     margin-left: 3em;
+}
+
+@media screen and (min-width: 500px){
+    html{
+        font-size: var(--min-width-500px-font-size);
+    }
+}
+
+@media screen and (min-width: 700px){
+    html{
+        font-size: var(--min-width-700px-font-size);
+    }
+}
+
+@media screen and (min-width: 1600px){
+    body{
+        font-size: var(--min-width-1600px-font-size);
+    }
+}
