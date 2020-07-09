@@ -13,12 +13,46 @@
     <link rel="stylesheet" href="styles/04-elements/elements-paragraphs.css">
     <link rel="stylesheet" href="styles/04-elements/elements-list-items.css">
     <link rel="stylesheet" href="styles/04-elements/elements-links.css">
+    <link rel="stylesheet" href="styles/04-elements/elements-images.css">
+
+    <link rel="stylesheet" href="/Solution/styles/05-objects/objects-page-wrapper.css">
+    <link rel="stylesheet" href="styles/05-objects/objects-list.css">
+    <link rel="stylesheet" href="styles/05-objects/objects-containers.css">
+
+    <link rel="stylesheet" href="styles/06-components/components-site-header.css">
+    <link rel="stylesheet" href="styles/06-components/components-primary-site-navigation.css">
+    <link rel="stylesheet" href="styles/06-components/components-cta.css">
+
+    <link rel="stylesheet" href="styles/07-utilities/u-text-decoration.css">
+    <link rel="stylesheet" href="styles/07-utilities/u-uppercase.css">
+
 
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis quasi placeat corporis, neque quisquam dolore repellat et voluptates obcaecati esse, dolorum fugit sed qui ut sint. Sit, repellat provident!</p>
-    </header>
+    <div class="o-page-wrapper">
+        <header class="c-site-header">
+            <div class="c-site-primary-logo">
+                <img src="../Resources/images/logo.svg" alt="Softuni logo">
+            </div>
+            <nav class="o-column-container c-primary-site-nav">
+                <ul class="o-horizontal-list c-primary-site-nav-list"> 
+                    <li class="o-column-container"><a class="c-primary-site-nav-link c-primary-site-nav-link-current" href="#">About Us</a></li>
+                    <li class="o-column-container"><a class="c-primary-site-nav-link" href="#">Curriculum</a></li>
+                    <li class="o-column-container"><a class="c-primary-site-nav-link" href="#">Certificates</a></li>
+                    <li class="o-column-container"><a class="c-primary-site-nav-link" href="#">Careers</a></li>
+                    <li class="o-column-container"><a class="c-primary-site-nav-link" href="#">Fees</a></li>
+                    <li class="o-column-container"><a class="c-primary-site-nav-link" href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="o-row-container c-primary-login-and-sign-up">
+                <a class="u-text-decoration u-uppercase" href="#">Sign up</a>
+                <a class="c-cta" href="#">LOG IN</a>
+            </div>
+            
+        </header>
+
+    </div>
+  
 </body>
 </html>
