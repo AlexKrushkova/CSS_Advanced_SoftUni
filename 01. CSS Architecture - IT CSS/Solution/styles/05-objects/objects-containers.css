@@ -1,9 +1,9 @@
-.o-column-container{
+.o-flex-row-wrap-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.o-row-container{
-    display: flex;
-    flex-flow: row wrap;
+.o-container-centered-items {
+    align-items: center;
 }

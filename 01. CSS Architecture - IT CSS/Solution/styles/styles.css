@@ -1,0 +1,20 @@
+@import url('/Solution/styles/03-generics/generic-normalize.css');
+@import url('/Solution/styles/03-generics/generic-fonts.css');
+@import url('/Solution/styles/03-generics/generic-sections.css');
+
+
+@import url('/Solution/styles/04-elements/elements-headings.css');
+@import url('/Solution/styles/04-elements/elements-html.css');
+@import url('/Solution/styles/04-elements/elements-images.css');
+@import url('/Solution/styles/04-elements/elements-links.css');
+@import url('/Solution/styles/04-elements/elements-list-items.css');
+@import url('/Solution/styles/04-elements/elements.css');
+
+
+@import url('/Solution/styles/05-objects/objects-containers.css');
+
+@import url('/Solution/styles/06-components/compnents-site.css');
+@import url('/Solution/styles/06-components/components-buttons.css');
+@import url('/Solution/styles/06-components/components-sections.css');
+@import url("/Solution/styles/06-components/components-site-footer.css");
+@import url('/Solution/styles/06-components/components-site-header.css')
