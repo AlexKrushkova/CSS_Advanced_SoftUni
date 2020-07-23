@@ -1,0 +1,17 @@
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.box:hover{
+    transition:  1s ease-out;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    font-size: 14px;
+    transform: translate(100px, 20px);
+    color: yellow;
+}
