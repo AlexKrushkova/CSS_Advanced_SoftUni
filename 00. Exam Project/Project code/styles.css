@@ -298,6 +298,63 @@
   left: 42%;
 }
 
+.sutability-and-improvements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sutability-and-improvements .sutability-and-improvements__dots {
+  margin-top: 50px;
+}
+
+.sutability-and-improvements .suitability, .sutability-and-improvements .improvements {
+  width: 700px;
+  margin-left: 60px;
+  margin-top: 40px;
+  color: #565656;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 100px;
+}
+
+.sutability-and-improvements .suitability h6, .sutability-and-improvements .improvements h6 {
+  margin: 16px 0;
+}
+
+.sutability-and-improvements .suitability {
+  width: 700px;
+  margin-left: 60px;
+}
+
+.sutability-and-improvements .improvements {
+  padding-top: 30px;
+}
+
+.sutability-and-improvements .improvements h6 {
+  width: 90%;
+}
+
+.sutability-and-improvements .icon-div {
+  position: relative;
+}
+
+.sutability-and-improvements .icon-div .suitability__icon {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.sutability-and-improvements .icon-div .improvements__icon {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -711,16 +768,18 @@ h1 {
   line-height: 44px;
 }
 
-h3 {
-  font-style: normal;
-  font-weight: bold;
-  line-height: 30px;
-}
-
-h4 {
+h2 {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 36px;
+}
+
+h6 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
 }
 
 span {
