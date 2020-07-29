@@ -1,10 +1,11 @@
 .btn {
     box-shadow: $primary-shadow;
-    border-radius: 100px;
+    border-radius: 50px;
     border: none;
     outline: none;
     padding: 10px 22px;
     text-transform: uppercase;
+    margin: 0 20px;
 
     &:hover {
         cursor: pointer;
@@ -15,4 +16,7 @@
         background: $secondary-color;
         color: #fff;
     }
+    // &--modified{
+    //     margin: 24px 64px;
+    // }
 }
