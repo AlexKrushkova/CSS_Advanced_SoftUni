@@ -1,3 +1,6 @@
+@import '../settings/settings-shadows';
+@import '../settings/_settings-colors';
+
 .btn {
     box-shadow: $primary-shadow;
     border-radius: 50px;
@@ -16,7 +19,5 @@
         background: $secondary-color;
         color: #fff;
     }
-    // &--modified{
-    //     margin: 24px 64px;
-    // }
+   
 }

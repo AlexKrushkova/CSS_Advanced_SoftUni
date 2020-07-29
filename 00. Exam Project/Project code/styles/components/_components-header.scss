@@ -3,6 +3,7 @@
 
 .header__info{
     background: $blue-400;
+    height: 300px;
     color: #fff;
     padding: 80px 0;
     text-align: center;
@@ -37,25 +38,31 @@
 
     .positioned{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
-        margin: 0 auto;;
 
+        .apply__details{
+            display: flex
+        }
         .apply__details--info{
             background-color: white;
             box-shadow: none;
-        }
-        .apply_details--info__gray{
-            color: $grey-700;
-        }
-        .apply_details--info__orange{
-            color: $secondary-800;
-        }
-        .apply__details{
-            display: flex;
-            justify-content: space-around;
-        }
-    
+            text-align: start;
+
+            h5,h4{
+                font-size: smaller;
+                margin-left: 10px;
+            }
+
+            h5{
+                color: $grey-700;
+                margin-bottom: 0;
+            }
+            h4{
+                color: $secondary-800;
+                margin-top: 2px;
+            }
+        
+         }
     }
-  
 }
