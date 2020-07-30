@@ -1,0 +1,79 @@
+@import '../settings/settings-shadows';
+@import '../settings/_settings-colors';
+
+.study-program {
+    background-color: $secondary-400;
+    border: 1px solid #000000;
+    box-shadow: $secondary-shadow;
+
+    .study-program-wrapper {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin: 70px 0;
+    }
+
+    .program-info {
+        width: 700px;
+
+        .title {
+            padding-bottom: 0;
+
+            h6 {
+                margin-top: 0;
+            }
+        }
+
+        .dropdown-div {
+            h5 {
+                margin-bottom: 0;
+            }
+        }
+
+        .dropdown-ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            li {
+                background-color: white;
+                display: flex;
+                justify-content: space-between;
+                border-radius: 6px;
+                margin-bottom: 16px;
+
+
+                h5 {
+                    width: 700px;
+                    padding: 14px;
+                    margin-top: 0;
+                }
+
+                img {
+                    margin: 14px 20px;
+                }
+            }
+        }
+    }
+}
+
+.icon-div {
+    position: relative;
+    .program__icon {
+        position: absolute;
+        top: 96px;
+        left: 100px;
+    }
+}
+
+
+.program-image-div{
+    position: relative;
+
+    img{
+        position: absolute;
+        top: 200px;
+        left: -200px;
+    }
+}
