@@ -38,7 +38,7 @@
   border-radius: 4px;
 }
 
-.header__info p {
+.header__info h6 {
   width: 640px;
   margin: 0 auto;
   padding-top: 20px;
@@ -278,7 +278,7 @@
 }
 
 .paragraphs-and-video .paragraphs {
-  max-width: 740px;
+  width: 740px;
 }
 
 .paragraphs-and-video .paragraphs p {
@@ -374,7 +374,7 @@
 }
 
 .study-program .program-info {
-  width: 700px;
+  width: 660px;
 }
 
 .study-program .program-info .title {
@@ -399,6 +399,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0;
+  border-radius: 6px;
 }
 
 .study-program .program-info .dropdown-ul li {
@@ -441,6 +442,99 @@
   position: absolute;
   top: 200px;
   left: -200px;
+}
+
+.certificate-and-picture {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.certificate-and-picture .certificate-info {
+  width: 670px;
+}
+
+.certificate-and-picture .certificate-info p {
+  width: 80%;
+}
+
+.certificate-and-picture .picture-card {
+  width: 363px;
+  height: 256px;
+  background-color: #D6D6D6;
+  position: relative;
+  right: 105px;
+  margin: 40px 75px;
+  border: none;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+}
+
+.certificate-and-picture .picture-card .certificate-text {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+
+.icon-div {
+  position: relative;
+}
+
+.icon-div .certificate__icon {
+  position: absolute;
+  top: -45px;
+  left: 55px;
+}
+
+.section-more-information {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.section-more-information .more-information {
+  width: 544px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.section-more-information .more-information .more-information--first {
+  margin-left: 50px;
+}
+
+.section-more-information .more-information .icon-div {
+  position: relative;
+}
+
+.section-more-information .more-information .icon-div .clock-icon, .section-more-information .more-information .icon-div .more-info_icon {
+  position: absolute;
+  top: 30px;
+  left: -10px;
+}
+
+.section-more-information .more-information .icon-div .more-info_icon {
+  position: absolute;
+  top: 28px;
+  left: -50px;
+}
+
+.section-more-information .orange-dots {
+  margin: 30px 0;
 }
 
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -740,29 +834,6 @@ summary {
           align-items: center;
 }
 
-.o-box {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.o-box--blue {
-  background-color: #44A9F8;
-}
-
-.o-box--green {
-  background-color: #41BEAD;
-}
-
-.o-box--red {
-  background-color: #FC4C50;
-}
-
-.o-box--circle {
-  border-radius: 50%;
-}
-
 select {
   background: #F8F8F8;
   border: 1px solid #FF9100;
@@ -810,19 +881,20 @@ a {
 }
 
 p {
+  font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  font-family: 'Lato';
+  color: #565656;
 }
 
 button {
   font-weight: 800;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato';
+h2, h3, h4, h5, h6 {
+  font-family: 'Monserat';
 }
 
 h1 {
@@ -861,6 +933,15 @@ h2 {
   font-style: normal;
   font-weight: 600;
   line-height: 36px;
+  color: #565656;
+}
+
+h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  color: #565656;
 }
 
 h6 {
