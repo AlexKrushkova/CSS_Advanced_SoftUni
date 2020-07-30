@@ -1,0 +1,50 @@
+@import '../settings/settings-shadows';
+@import '../settings/_settings-colors';
+
+.footer-wrapper {
+    position: relative;
+    height: 312px;
+    margin-top: 0;
+    background-color: $grey-700;
+    display: flex;
+    justify-content: flex-end;
+
+    .footer-ul {
+        max-width: 300px;
+        margin: 40px 0 40px 40px;
+
+        &__softuni-kids {
+            max-width: 600px;
+            display: flex;
+            justify-content: space-evenly;
+
+            .mover {
+                margin-top: 66px;
+            }
+        }
+        &__where-to-finds-us {
+            margin-right: 100px;
+
+            .secont-image{
+                margin-left: 30px;
+            }
+
+            .rights{
+                margin-top: 48px;
+
+            }
+        }
+
+        h5 {
+            color: white;
+            margin-bottom: 16px;
+        }
+    }
+
+    .footer-huge-image {
+        position: absolute;
+        height: 403px;
+        bottom: 0;
+        left: 100px;
+    }
+}

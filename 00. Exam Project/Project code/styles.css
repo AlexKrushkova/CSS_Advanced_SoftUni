@@ -100,6 +100,62 @@
   margin-top: 2px;
 }
 
+.footer-wrapper {
+  position: relative;
+  height: 312px;
+  margin-top: 0;
+  background-color: #565656;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-wrapper .footer-ul {
+  max-width: 300px;
+  margin: 40px 0 40px 40px;
+}
+
+.footer-wrapper .footer-ul__softuni-kids {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-wrapper .footer-ul__softuni-kids .mover {
+  margin-top: 66px;
+}
+
+.footer-wrapper .footer-ul__where-to-finds-us {
+  margin-right: 100px;
+}
+
+.footer-wrapper .footer-ul__where-to-finds-us .secont-image {
+  margin-left: 30px;
+}
+
+.footer-wrapper .footer-ul__where-to-finds-us .rights {
+  margin-top: 48px;
+}
+
+.footer-wrapper .footer-ul h5 {
+  color: white;
+  margin-bottom: 16px;
+}
+
+.footer-wrapper .footer-huge-image {
+  position: absolute;
+  height: 403px;
+  bottom: 0;
+  left: 100px;
+}
+
 .navbar {
   -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
           box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
@@ -866,6 +922,27 @@ select::placeholder {
   color: #919191;
 }
 
+hr {
+  height: 12px;
+  background-color: #919191;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #41BEAD;
+  cursor: pointer;
+}
+
 html, * {
   font-family: 'Lato', sans-serif;
 }
@@ -881,7 +958,7 @@ a {
 }
 
 p {
-  font-family: Lato;
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -891,10 +968,6 @@ p {
 
 button {
   font-weight: 800;
-}
-
-h2, h3, h4, h5, h6 {
-  font-family: 'Monserat';
 }
 
 h1 {
@@ -959,6 +1032,14 @@ span {
   line-height: 16px;
   text-align: center;
   text-transform: uppercase;
+}
+
+footer a {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 @-webkit-keyframes expand-and-square {

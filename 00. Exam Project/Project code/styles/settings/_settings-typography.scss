@@ -15,7 +15,7 @@ a {
 }
 
 p {
-    font-family: Lato;
+    font-family: "Lato";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -25,10 +25,6 @@ p {
 
 button {
     font-weight: 800;
-}
-
-h2, h3, h4, h5, h6 {
-    font-family: 'Monserat';
 }
 
 @each $header, $size in (h1: 36px, h2: 30px, h3: 24px, h4: 20px, h5: 18px, h6: 16px) {
@@ -75,4 +71,14 @@ span{
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
+}
+
+footer{
+    a{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
