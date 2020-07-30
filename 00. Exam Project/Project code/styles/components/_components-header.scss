@@ -2,11 +2,20 @@
 @import '../settings/settings-shadows';
 
 .header__info{
-    background: $blue-400;
     height: 300px;
     color: #fff;
-    padding: 80px 0;
     text-align: center;
+
+        &--blue{
+            background: $blue-400;
+            padding: 80px 0;
+        }
+
+
+        &--orange{
+        background: $secondary-500;
+        padding: 60px 0;
+    }
 
         span{
             background-color: $secondary-500;
@@ -15,7 +24,7 @@
             border-radius: 4px;
         }
 
-        h6{
+        h1{
             width: 640px;
             margin: 0 auto;
             padding-top: 20px;
@@ -30,7 +39,7 @@
 .header__apply{
     width: 90%;
     height: 112px;
-    position: absolute;
+    position: static;
     background-color: white;
     border-radius: 12px;
     margin-left: 5%;
@@ -41,9 +50,16 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        
+        button{
+            margin-top: 15px;
+        }
 
         .apply__details{
-            display: flex
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 15px;
         }
         .apply__details--info{
             background-color: white;

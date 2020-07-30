@@ -23,11 +23,19 @@
 }
 
 .header__info {
-  background: #44A9F8;
   height: 300px;
   color: #fff;
-  padding: 80px 0;
   text-align: center;
+}
+
+.header__info--blue {
+  background: #44A9F8;
+  padding: 80px 0;
+}
+
+.header__info--orange {
+  background: #FFC20A;
+  padding: 60px 0;
 }
 
 .header__info span {
@@ -38,7 +46,7 @@
   border-radius: 4px;
 }
 
-.header__info h6 {
+.header__info h1 {
   width: 640px;
   margin: 0 auto;
   padding-top: 20px;
@@ -52,7 +60,7 @@
 .header__apply {
   width: 90%;
   height: 112px;
-  position: absolute;
+  position: static;
   background-color: white;
   border-radius: 12px;
   margin-left: 5%;
@@ -72,10 +80,19 @@
           align-items: center;
 }
 
+.header__apply .positioned button {
+  margin-top: 15px;
+}
+
 .header__apply .positioned .apply__details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .header__apply .positioned .apply__details--info {
@@ -593,6 +610,44 @@
   margin: 30px 0;
 }
 
+.section-directors {
+  width: 90%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.section-directors .directors {
+  width: 400px;
+  margin-left: 160px;
+}
+
+.section-directors .directors h4 {
+  margin-bottom: 0;
+}
+
+.section-directors .directors h6 {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  color: #B2B2B2;
+}
+
+.section-directors .directors .directors__image {
+  position: relative;
+}
+
+.section-directors .directors .directors__image img {
+  width: 188px;
+  height: 188px;
+  position: absolute;
+  top: 30px;
+  left: -220px;
+}
+
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -943,6 +998,15 @@ footer a:hover {
   cursor: pointer;
 }
 
+.section-break {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+}
+
 html, * {
   font-family: 'Lato', sans-serif;
 }
@@ -1009,6 +1073,14 @@ h2 {
   color: #565656;
 }
 
+h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  color: #41BEAD;
+}
+
 h5 {
   font-family: "Lato";
   font-style: normal;
@@ -1022,6 +1094,12 @@ h6 {
   font-style: normal;
   font-weight: normal;
   line-height: 20px;
+}
+
+h6 .h6--gray {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  color: #B2B2B2;
 }
 
 span {
