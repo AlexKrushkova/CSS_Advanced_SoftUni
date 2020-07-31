@@ -1,0 +1,15 @@
+input[type=text], select {
+    width: 228px;
+    height: 20px;
+    padding: 16px 52px 16px 16px;
+    margin: 8px 20px;
+    background: $blue-300;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  ::placeholder{
+      color: white;
+  }

@@ -2,6 +2,13 @@
 
 hr{
     height: 12px;
-    background-color: $grey-500;
     margin: 0;
+}
+
+.hr--gray{
+    background-color: $grey-500;
+}
+
+.hr--blue{
+    background-color: $blue-200;
 }

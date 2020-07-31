@@ -69,12 +69,22 @@ h6 {
     font-style: normal;
     font-weight: normal;
     line-height: 20px;
+}
 
-    .h6--gray{
-        margin-top: 8px;
-        margin-bottom: 24px;
-        color: $grey-400;
-    }
+.h6--gray{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: $grey-400;
+}
+
+.h6--gray-700{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: $grey-700;
+}
+
+.h6--orange{
+    color: $secondary-800;
 }
 
 span{

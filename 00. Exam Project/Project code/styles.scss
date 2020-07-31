@@ -5,12 +5,15 @@
 @import './styles/components/_components-revealing-list';
 @import './styles/components/_components-popup';
 @import './styles/components/_components-level-label';
-@import './styles/components/components-main-section-video';
+@import './styles/components/components-section-video';
 @import './styles/components/components-section-sutability-and-improvements';
 @import './styles/components/components-section-study-program';
 @import './styles/components/components-section-certificate-and-picture';
 @import './styles/components/components-section-more-information';
 @import './styles/components/components-section-directors';
+@import './styles/components/components-section-grid';
+@import './styles/components/components-section-join';
+@import './styles/components/components-section-map';
 
 @import './styles/generic/_generic-normalize';
 
@@ -21,6 +24,7 @@
 @import './styles/elements/elements_li';
 @import './styles/elements/element-footer-links';
 @import './styles/elements/element-section-break';
+@import './styles/elements/element-label-field';
 
 @import './styles/settings/_settings-typography';
 @import './styles/settings/_settings-animations';
