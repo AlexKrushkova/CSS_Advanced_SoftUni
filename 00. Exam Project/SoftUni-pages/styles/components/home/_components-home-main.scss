@@ -233,31 +233,24 @@
         padding-top: 60px;
         .o-page-content-wrapper {
             display: grid;
-            grid-template-columns: 2fr 2fr;
+            grid-template-columns: 0.3fr 3fr 2fr;
             justify-items: center;
             align-items: center;
             justify-content: space-between;
             align-content: center;
         }
 
-        &-info {
-            display: grid;
-            grid-template-columns: 0.5fr 4fr;
-            justify-items: center;
-            align-items: center;
-            align-content: center;
-            justify-content: left;
-            &-icon {
+            &-info-icon {
                 justify-self: start;
-                align-self: flex-start;
-               margin: 0;
+                align-self: center;
+                margin-bottom: 50%;
             }
 
-            &-explained {
+            &-info-explained {
                 justify-self: start;
-                align-self: flex-start;
+                align-self: center;
             }
-        }
+        
 
 
         &-image {
