@@ -1,0 +1,11 @@
+.o-page-wrapper{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 75px 1fr 312px;
+}
+// 302px 473px 327px 554px 421px 470px
+
+.o-page-content-wrapper{
+    max-width: 1196px;
+    margin: 0 auto;
+}

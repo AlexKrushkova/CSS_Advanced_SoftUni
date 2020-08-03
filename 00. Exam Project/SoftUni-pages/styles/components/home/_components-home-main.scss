@@ -1,0 +1,175 @@
+.c-home-main {
+    display: grid;
+    grid-template-rows: 302px 133px 473px 327px 554px 421px 470px;
+
+
+    &__apply {
+        .o-page-content-wrapper {
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 12px;
+            position: relative;
+            z-index: 5;
+            top: -60%;
+        }
+
+        &-ul {
+            display: grid;
+            columns: 1;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-around;
+            align-content: center;
+        }
+
+        &-ul-details {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-evenly;
+            align-content: center;
+
+            &-icons {
+                justify-self: end;
+                width: 32px;
+                height: 32px;
+                margin-right: 12px;
+            }
+    
+            &-info {
+
+                &--gray {
+                    font-family: "Lato";
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-transform: lowercase;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 6px;
+                    text-align: left;
+                    color: $grey-700;
+                }
+                &--orange {
+                    font-family: "Montserrat";
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: lowercase;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: left;
+                    margin-top: 6px;
+                    color: $secondary-800;
+                }
+            }
+        }
+    }
+
+    &__first-steps-section {
+        position: relative;
+        z-index: -1;
+        background-color: $blue-400;
+        .o-page-content-wrapper {
+            margin-top: 64px;
+            display: grid;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        &-begginer {
+            color: #FFFFFF;
+            background-color: $secondary-500;
+            padding: 4px 8px;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+
+        &-header {
+            font-family: "Montserrat";
+            width: 644px;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    &__video-information {
+        margin-top: 40px;
+        .o-page-content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: self-end;
+            align-items: center;
+            justify-content: space-between;
+            align-content: space-between;
+
+            &-info {
+                justify-self: start;
+                width: 739px;
+                padding-right: 111px;
+            }
+
+            &-video {
+                margin: 0;
+                justify-self: end;
+                align-self: end;
+                width: 440px;
+                height: 248px;
+
+                    img{
+                        width: 64px;
+                        height: 64px;
+                        position: absolute;
+                    }
+                }
+
+            }
+
+    }
+
+    &__suggestability{
+        .o-page-content-wrapper{
+            display: grid;
+            grid-template-columns: 2fr 0.6fr 2fr;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        &-suitability{
+            display: grid;
+            grid-template-columns: 0.3fr 2fr;
+            justify-content: space-between;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+
+                &-icon{
+                    justify-self: start;
+                    align-self: center;
+                    margin-bottom: 100%;
+                }
+        }
+    }
+
+    &__certificates{
+        .o-page-content-wrapper{
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+
+
+    }
+
+
+
+}

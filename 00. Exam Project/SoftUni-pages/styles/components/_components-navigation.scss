@@ -1,0 +1,67 @@
+.c-main-header {
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14), 0 3px 4px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.2);
+    .navbar {
+        display: grid;
+        grid-template-columns: 2fr 3.5fr 0.5fr;
+        align-items: center;
+        justify-items: start;
+        justify-content: space-between;
+        align-content: center;
+        margin-top: 8px;
+
+        &__items {
+            display: grid;
+            grid-template-columns: 1.1fr 1.1fr 1.7fr 0.7fr 1.2fr 0.3fr;
+            justify-items: end;
+            align-items: center;
+            justify-content: end;
+
+        }
+
+        &__item {
+            list-style: none;
+            margin: 4px;
+
+            &-search {
+                width: 16px;
+                height: 16px;
+                justify-self: center;
+                align-self: center;
+            }
+
+            a {
+                justify-self: end;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $grey-700;
+                cursor: pointer;
+                margin: 29px 12px;
+                span {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+        &__logo {
+            display: grid;
+            grid-template-columns: 0.1fr 1fr;
+            align-content: start;
+            align-items: start;
+
+
+            &-logo {
+                justify-self: left;
+                align-self: center;
+                width: 121px;
+                height: 41px;
+            }
+            &-arrow {
+                justify-self: self-start;
+                align-self: center;
+                width: 20px;
+                height: 12px;
+            }
+        }
+    }
+}

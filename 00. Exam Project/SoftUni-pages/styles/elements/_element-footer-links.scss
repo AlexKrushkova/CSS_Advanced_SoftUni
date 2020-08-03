@@ -1,0 +1,13 @@
+@import '../settings/_settings-colors';
+
+footer{
+    a{
+        text-decoration: none;
+        color: white;
+
+        &:hover{
+            color: $blue-300;
+            cursor: pointer;
+        }
+    }
+}
