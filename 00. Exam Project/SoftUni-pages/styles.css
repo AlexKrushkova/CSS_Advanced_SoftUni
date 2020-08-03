@@ -521,20 +521,224 @@
   margin-bottom: 100%;
 }
 
-.c-home-main__certificates .o-page-content-wrapper {
+.c-home-main__program {
+  padding: 64px auto;
+  background-color: #FF7100;
+  height: 554px;
+  border: 1px solid #000000;
+}
+
+.c-home-main__program .o-page-content-wrapper {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 3fr 2fr;
       grid-template-columns: 3fr 2fr;
   justify-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.c-home-main__program-information {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 5fr;
+      grid-template-columns: 0.5fr 5fr;
+  justify-items: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.c-home-main__program-information-icon {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  margin-top: 40%;
+}
+
+.c-home-main__program-information-info-dropdown h5 {
+  margin-bottom: 12px;
+}
+
+.c-home-main__program-information-info-dropdown-ul {
+  padding-left: 0;
+}
+
+.c-home-main__program-information-info-dropdown-ul li {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 0.5fr;
+      grid-template-columns: 5fr 0.5fr;
+  justify-items: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  background-color: white;
+}
+
+.c-home-main__program-information-info-dropdown-ul li h5 {
+  margin: 14px;
+  width: 600px;
+}
+
+.c-home-main__program-information-info-dropdown-ul li img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.c-home-main__program-image {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.c-home-main__certificate {
+  padding-top: 60px;
+}
+
+.c-home-main__certificate .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.c-home-main__certificate-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 4fr;
+      grid-template-columns: 0.5fr 4fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.c-home-main__certificate-info-icon {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0;
+}
+
+.c-home-main__certificate-info-explained {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.c-home-main__certificate-image {
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.c-home-main__certificate-image-text {
+  position: absolute;
+  top: 32%;
+  left: 22%;
+}
+
+.c-home-main__more-info .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 0.8fr 4fr;
+      grid-template-columns: 4fr 0.8fr 4fr;
+  justify-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.c-home-main__more-info-moreinform-time {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.3fr 2fr;
+      grid-template-columns: 0.3fr 2fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.c-home-main__more-info-moreinform-time-icon {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 50%;
+}
+
+.c-home-main__more-info-moreinform-details {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.3fr 2fr;
+      grid-template-columns: 0.3fr 2fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.c-home-main__more-info-moreinform-details-icon {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 40%;
 }
 
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
