@@ -132,7 +132,6 @@
 }
 
 .c-footer {
-  margin-top: 80px;
   height: 312px;
   background-color: #565656;
 }
@@ -347,8 +346,8 @@
 .c-home-main {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 302px 133px 473px 327px 554px 421px 470px;
-      grid-template-rows: 302px 133px 473px 327px 554px 421px 470px;
+  -ms-grid-rows: 302px 133px 473px 327px 554px 421px 550px;
+      grid-template-rows: 302px 133px 473px 327px 554px 421px 550px;
 }
 
 .c-home-main__apply .o-page-content-wrapper {
@@ -754,6 +753,138 @@
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-top: 40%;
+}
+
+.c-teachers-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 260px 550px 100px 1400px 420px;
+      grid-template-rows: 260px 550px 100px 1400px 420px;
+}
+
+.c-teachers-main__intro-section {
+  background-color: #FFB402;
+}
+
+.c-teachers-main__intro-section .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: white;
+  width: 850px;
+}
+
+.c-teachers-main__intro-section-header {
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.c-teachers-main__intro-section-info {
+  text-align: center;
+}
+
+.c-teachers-main__leaders {
+  margin-top: 100px;
+}
+
+.c-teachers-main__leaders .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 0.5fr 1fr;
+      grid-template-columns: 0.5fr 1fr 0.5fr 1fr;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  grid-column-gap: 30px;
+}
+
+.c-teachers-main__leaders-info h4, .c-teachers-main__leaders-info h6 {
+  margin-bottom: 8px;
+}
+
+.c-teachers-main__leaders-images {
+  margin-top: 30px;
+  width: 188px;
+  height: 188px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.c-teachers-main__teachers-grid .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  grid-row-gap: 64px;
+}
+
+.c-teachers-main__teachers-grid img {
+  width: 188px;
+  height: 188px;
+}
+
+.c-teachers-main__teachers-grid-person {
+  text-align: center;
+}
+
+.c-teachers-main__teachers-grid-person h4 {
+  margin-bottom: 0;
+}
+
+.c-teachers-main__join {
+  background-color: #66B9F8;
+}
+
+.c-teachers-main__join .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.c-teachers-main__join-info {
+  margin-top: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 800px;
+  text-align: center;
+  color: white;
 }
 
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
