@@ -1,0 +1,40 @@
+.width{
+    width: 200px;
+}
+
+.A{
+    height: 30px;
+    background-color: lightblue;
+}
+.B{
+    height: 100px;
+    background-color: yellow;
+}
+.C{
+    height: 60px;
+    background-color: pink;
+}
+.D{
+    height: 120px;
+    background-color: blue;
+}
+.E{
+    height: 200px;
+    background-color: greenyellow;
+}
+.F{
+    height: 140px;
+    background-color: purple;
+}
+.G{
+    height: 20px;
+    background-color: orangered;
+}
+
+.wrapper{
+    margin: 100px auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: end;
+}
