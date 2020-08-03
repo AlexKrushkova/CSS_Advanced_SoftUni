@@ -860,6 +860,8 @@
 }
 
 .c-teachers-main__join {
+  font-family: Montserrat;
+  font-style: normal;
   background-color: #66B9F8;
 }
 
@@ -885,6 +887,180 @@
   width: 800px;
   text-align: center;
   color: white;
+}
+
+.c-contacts-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 600px 690px 580px;
+      grid-template-rows: 600px 690px 580px;
+}
+
+.c-contacts-main__adress {
+  background-image: url("/assets/images/Map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: -50px;
+}
+
+.c-contacts-main__adress .o-page-content-wrapper {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  background-color: white;
+  width: 520px;
+  height: 380px;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.c-contacts-main__adress-hours-adress h4 {
+  margin-bottom: 18px;
+}
+
+.c-contacts-main__adress-hours-adress h6 {
+  margin-bottom: 12px;
+}
+
+.c-contacts-main__adress-hours-working-time {
+  margin-bottom: 20px;
+}
+
+.c-contacts-main__adress-hours-working-time h4 {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.c-contacts-main__adress-hours-working-time-combined {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 100px;
+      grid-template-columns: 100px 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  align-self: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+
+.c-contacts-main__adress-hours-working-time-combined-hours {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-top: 0;
+}
+
+.c-contacts-main__adress-hours-working-time-combined-days {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding-left: 10px;
+  margin-top: 0;
+}
+
+.c-contacts-main__adress button {
+  margin-top: 40px;
+  margin-left: 25%;
+}
+
+.c-contacts-main-wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 216px 220px;
+      grid-template-columns: 216px 220px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.c-contacts-main__contact-form .o-page-content-wrapper {
+  margin-top: 100px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+}
+
+.c-contacts-main__contact-form h2 {
+  color: #66B9F8;
+}
+
+.c-contacts-main__contact-form-message {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.c-contacts-main__contact-form button {
+  width: 140px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  margin-left: 0;
+}
+
+.c-contacts-main__transportation {
+  background-color: #FFF8E1;
+}
+
+.c-contacts-main__transportation .o-page-content-wrapper {
+  margin-top: 100px;
+}
+
+.c-contacts-main__transportation .o-page-content-wrapper h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #66B9F8;
+  margin-left: 15%;
+}
+
+.c-contacts-main__transportation-all {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 440px 440px 440px;
+      grid-template-columns: 440px 440px 440px;
+  justify-items: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.c-contacts-main__transportation-all h3 {
+  color: #66B9F8;
+}
+
+.c-contacts-main__transportation-all li {
+  color: #565656;
 }
 
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -1199,7 +1375,7 @@ footer a:hover {
   margin-bottom: 70px;
 }
 
-input[type=text], select {
+.c-teachers-main input[type=text], .c-teachers-main select {
   width: 228px;
   height: 20px;
   padding: 16px 52px 16px 16px;
@@ -1212,20 +1388,55 @@ input[type=text], select {
           box-sizing: border-box;
 }
 
-::-webkit-input-placeholder {
+.c-teachers-main ::-webkit-input-placeholder {
   color: white;
 }
 
-:-ms-input-placeholder {
+.c-teachers-main :-ms-input-placeholder {
   color: white;
 }
 
-::-ms-input-placeholder {
+.c-teachers-main ::-ms-input-placeholder {
   color: white;
 }
 
-::placeholder {
+.c-teachers-main ::placeholder {
   color: white;
+}
+
+.c-contacts-main__contact-from-details {
+  width: 850px;
+}
+
+.c-contacts-main__contact-from-details :nth-child(2) {
+  margin-right: 6px;
+}
+
+.c-contacts-main__contact-from-details :nth-child(3) {
+  margin-right: 16px;
+}
+
+.c-contacts-main__contact-from-details input[type=text], .c-contacts-main__contact-from-details select {
+  width: 410px;
+  height: 50px;
+  border: 1px solid #919191;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 16px;
+  margin-bottom: 30px;
+}
+
+.c-contacts-main__contact-from-message input[type=text], .c-contacts-main__contact-from-message select {
+  width: 850px;
+  height: 190px;
+  border: 1px solid #919191;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 16px;
+  margin-bottom: 30px;
+  padding-bottom: 140px;
 }
 
 html, * {
