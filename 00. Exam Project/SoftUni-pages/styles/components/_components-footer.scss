@@ -53,11 +53,12 @@
         &-icons{
             display: grid;
             grid-template-columns: 70px 70px;
-           
+            cursor: pointer;
         }
         &-copy-rights{
             margin-top: 10px;
         }
         
     }
+    
 }

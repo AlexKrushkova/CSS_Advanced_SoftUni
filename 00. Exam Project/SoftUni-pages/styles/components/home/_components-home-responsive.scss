@@ -1,0 +1,19 @@
+@media only screen and (max-width: 375px){
+    .c-home-main{
+        
+        &__video-information {
+            // margin-top: 40px;
+            .o-page-content-wrapper {
+                display: grid;
+                grid-template-columns: 1fr;
+                
+    
+                // &-info {
+                //     justify-self: start;
+                //     width: 739px;
+                //     padding-right: 111px;
+                }
+    
+            }
+    }
+}

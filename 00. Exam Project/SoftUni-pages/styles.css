@@ -209,6 +209,7 @@
   display: grid;
   -ms-grid-columns: 70px 70px;
       grid-template-columns: 70px 70px;
+  cursor: pointer;
 }
 
 .c-footer-ul__where-to-finds-us-copy-rights {
@@ -500,12 +501,19 @@
       align-self: end;
   width: 440px;
   height: 248px;
+  position: relative;
 }
 
 .c-home-main__video-information .o-page-content-wrapper-video img {
+  position: absolute;
   width: 64px;
   height: 64px;
+}
+
+.c-home-main__video-information .o-page-content-wrapper-video .video-sign {
   position: absolute;
+  top: 50px;
+  left: 40px;
 }
 
 .c-home-main__suggestability .o-page-content-wrapper {
@@ -851,6 +859,10 @@
   height: 188px;
 }
 
+.c-teachers-main__teachers-grid img:hover {
+  background-image: url("/assets/images/Elena-grid-hover.png");
+}
+
 .c-teachers-main__teachers-grid-person {
   text-align: center;
 }
@@ -897,7 +909,7 @@
 }
 
 .c-contacts-main__adress {
-  background-image: url("/assets/images/Map.png");
+  background-image: url("assets/images/Map.png");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -1063,6 +1075,15 @@
   color: #565656;
 }
 
+@media only screen and (max-width: 375px) {
+  .c-home-main__video-information .o-page-content-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -1094,6 +1115,7 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  font-family: "Lato-Cyliric-regular";
 }
 
 /*
@@ -1439,6 +1461,26 @@ footer a:hover {
   padding-bottom: 140px;
 }
 
+@font-face {
+  font-family: "Lato-Cyliric-regular";
+  src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Cyliric-bold";
+  src: url("/assets/fonts/Lato-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Monteserrat-Cyliric-regular";
+  src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Monteserrat-Cyliric-bold";
+  src: url("/assets/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
 html, * {
   font-family: 'Lato', sans-serif;
 }
@@ -1454,7 +1496,7 @@ a {
 }
 
 p {
-  font-family: "Lato";
+  font-family: "Lato-Cyliric-regular";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1491,14 +1533,14 @@ h6 {
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato-Cyliric-regular';
   font-style: normal;
   font-weight: 600;
   line-height: 44px;
 }
 
 h2 {
-  font-family: "Montserrat";
+  font-family: "Monteserrat-Cyliric-regular";
   font-style: normal;
   font-weight: 600;
   line-height: 36px;
@@ -1506,7 +1548,7 @@ h2 {
 }
 
 h4 {
-  font-family: "Montserrat";
+  font-family: "Monteserrat-Cyliric-regular";
   font-style: normal;
   font-weight: bold;
   line-height: 24px;
@@ -1514,7 +1556,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Lato";
+  font-family: "Lato-Cyliric-regular";
   font-style: normal;
   font-weight: bold;
   line-height: 22px;
@@ -1522,7 +1564,7 @@ h5 {
 }
 
 h6 {
-  font-family: "Lato";
+  font-family: "Lato-Cyliric-regular";
   font-style: normal;
   font-weight: normal;
   line-height: 20px;
@@ -1545,7 +1587,7 @@ h6 {
 }
 
 span {
-  font-family: "Lato";
+  font-family: "Lato-Cyliric-regular";
   font-style: normal;
   font-weight: bold;
   font-size: 11px;
@@ -1555,7 +1597,7 @@ span {
 }
 
 footer a {
-  font-family: "Lato";
+  font-family: "Lato-Cyliric-regular";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
