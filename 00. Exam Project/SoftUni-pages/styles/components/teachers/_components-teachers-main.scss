@@ -53,6 +53,12 @@
         align-self: flex-start;
         justify-self: start;
      }
+
+     .c-teachers-main__leaders-images:hover{
+        transition: transform .2s;
+        transform: scale(1.2);
+     }
+
     }
 
 

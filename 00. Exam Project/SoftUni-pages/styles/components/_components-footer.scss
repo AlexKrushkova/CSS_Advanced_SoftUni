@@ -24,15 +24,26 @@
      }
 
     &-ul__softuni-kids{
-        align-self: start;
-
-            div{
+             align-self: center;
+             padding-top: 26px;
              display: grid;
-             grid-template-columns: 0.8fr 1fr;
-             justify-content: center;
+             grid-template-columns: auto;
+             grid-template-columns: 1fr 1fr;
+             grid-template-rows: 30px 30px 30px 30px 30px 30px;
+             grid-auto-flow: column;  
+             justify-items: start;
+             justify-content: start;
              justify-items: space-between;
              align-items: end;
-            }
+
+             &-padding-first{
+                 grid-row-start: 2;
+             }
+             &-padding-second{
+                 grid-row-start: 3;
+             }
+
+            
     }
 
     &-ul__all-studies{
