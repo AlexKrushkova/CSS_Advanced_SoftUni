@@ -810,8 +810,8 @@
 .c-teachers-main {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 260px 550px 100px 1400px 420px;
-      grid-template-rows: 260px 550px 100px 1400px 420px;
+  -ms-grid-rows: 260px 550px 100px 1500px 420px;
+      grid-template-rows: 260px 550px 100px 1500px 420px;
 }
 
 .c-teachers-main__intro-section {
@@ -907,21 +907,24 @@
   grid-row-gap: 64px;
 }
 
-.c-teachers-main__teachers-grid img {
-  width: 188px;
-  height: 188px;
-}
-
-.c-teachers-main__teachers-grid img:hover {
-  background-image: url("/assets/images/Elena-grid-hover.png");
-}
-
 .c-teachers-main__teachers-grid-person {
   text-align: center;
 }
 
-.c-teachers-main__teachers-grid-person h4 {
-  margin-bottom: 0;
+.c-teachers-main__teachers-grid-person-image {
+  background-image: url("assets/images/Elena-grid-4x4.png");
+  width: 188px;
+  height: 188px;
+}
+
+.c-teachers-main__teachers-grid-person-image:hover {
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+  -webkit-animation: spin 4s ease-in-out infinite;
+          animation: spin 4s ease-in-out infinite;
+  background-image: url("assets/images/Elena-grid-hover.png");
 }
 
 .c-teachers-main__join {
@@ -1657,46 +1660,6 @@ footer a {
   line-height: 19px;
 }
 
-@-webkit-keyframes expand-and-square {
-  0% {
-    border-radius: 50%;
-    background-color: red;
-    width: 50px;
-    height: 50px;
-  }
-  50% {
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-  }
-  100% {
-    border-radius: 0;
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-  }
-}
-
-@keyframes expand-and-square {
-  0% {
-    border-radius: 50%;
-    background-color: red;
-    width: 50px;
-    height: 50px;
-  }
-  50% {
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-  }
-  100% {
-    border-radius: 0;
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-  }
-}
-
 @-webkit-keyframes reveal-left {
   from {
     opacity: 0;
@@ -1756,6 +1719,28 @@ footer a {
   }
   to {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
