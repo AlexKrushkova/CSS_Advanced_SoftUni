@@ -12,9 +12,16 @@
 
     &-huge-image{
         position: relative;
+        :hover{
+            transition: transform 3s;
+            animation: rotate 4s ease-in-out;
+        }
+      
            &-img{
             position: absolute;
             bottom: -168px;
+
+            
         }
      }
 

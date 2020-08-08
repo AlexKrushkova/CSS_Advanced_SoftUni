@@ -1,0 +1,40 @@
+@media only screen and (max-width: 375px){
+    .c-main-header {
+
+
+        .navbar {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-image: url("/assets/icons/menu.svg" );
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+    
+            &__items {
+                display: none;
+            }
+    
+                
+            }
+            &__logo {
+                display: grid;
+                grid-template-columns: 0.1fr 1fr;
+                align-content: start;
+                align-items: start;
+    
+    
+                &-logo {
+                    justify-self: left;
+                    align-self: center;
+                    width: 121px;
+                    height: 41px;
+                }
+                &-arrow {
+                    justify-self: self-start;
+                    align-self: center;
+                    width: 20px;
+                    height: 12px;
+                }
+            }
+        }
+}
